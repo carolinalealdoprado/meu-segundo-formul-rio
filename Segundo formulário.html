@@ -1,0 +1,82 @@
+<html>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="Segundo formulário.css">
+    <form action="#" no local do # colocar o site pra onde será direcionado o formas quando cliente apertar enviar method="post">
+       
+        <p> <label  class="obrigatório" for="nome">Nome:</label> <input type="text" id= "nome" name="nome" placeholder="Insira seu primeiro nome" maxlength="20" ></p>
+        
+        <p> <label for="sobrenome">Sobrenome:</label> <input type="text" id= "sobrenome" name="sobrenome"placeholder="Insira seu sobrenome"></p>
+
+        <p> <label class="obrigatório" for="Contacto">Contacto:</label> <input type="tel" id= "contacto" name="contacto"placeholder="+351 999999999"></p>
+
+        <p> <label  class="obrigatório" for="nascimento">Data de Nascimento:</label> <input type="date" id="nascimento" name="nascimento" value="2004-01-31" min="1930-01-31" max="2004-01-31" required >
+
+        </p>
+
+        <p><fieldset>
+                <legend>Estado Civil</legend>
+                <div>
+                    <input type="radio" id="solteiro" name="estado civil" value="A">
+                    <label for="solteiro">Solteiro</label>
+                </div>
+                <div>
+                    <input type="radio" id="casado" name="estado civil" value="B">
+                    <label for="casado">Casado</label>
+                </div>
+                <div>
+                    <input type="radio" id="divorciado" name="estado civil" value="C">
+                    <label for="divorciado">Divorciado</label>
+                </div>
+                <div>
+                    <input type="radio" id="viúvo" name="estado civil" value="D">
+                    <label for="viúvo">Viúvo</label>
+                </div>
+            </fieldset>
+        </p> 
+
+        <p> <label  class="obrigatório" for="email">Email:</label><input type="email" id="email" name="email" placeholder="exemplo@email.com" size="50" required >
+
+        </p>
+
+        <p> <label  class="obrigatório" for="senha">Senha:</label><input type="password" id="senha" name="senha" minlength="8" required>
+
+        </p>
+
+        <p> <label for="horário">Melhor horário para ser contactado</label><input type="time" id="horário" name="horário" min="08:00" max="17:00">
+
+        </p>
+
+        <div>
+            <label for="ibox">Qual box deseja encomendar?</label>
+            <input type="text" list="box" id="ibox" name="box">
+                <datalist id="box">
+                    <option value="Breakfast">
+                    <option value="Valentine's">
+                    <option value="Movie Night">
+                    <option value="Pub in Home">
+                    <option value="Mommy">
+                    <option value="Chocolovers">
+                    <option value="Personalizada">             
+                </datalist>
+        </div>
+
+        <p class="personalizada"> <label for="personalizada">Se escolheu personalizada descreva brevemente o que deseja em sua box:</label> <input type="text" id= "personalizada" name="personalizada"placeholder="Escreva aqui" maxlength="100"></p>
+
+        <div>
+            <input class= "checkbox" type="checkbox" name="cadastro" id="cadastro">
+            <label for="cadastro"> Aceito receber E-mails com as promoções e novidades da loja</label>
+            
+        </div>
+
+        <div>
+            <button type="submit">Enviar!</button>
+        </div>
+        
+
+    </form>
+
+   
+
+
+
+</html>

@@ -1,0 +1,41 @@
+p, div, label {
+    margin: 2px;
+    padding: 5px 0;
+        
+}
+textarea {
+    vertical-align: text-top;
+}
+.personalizada {
+     text-align: left;
+}
+form {
+    width: 510px;
+}
+fieldset {
+    margin-left: 3px;
+    text-align: left;
+    background-color: #eee;
+    border: 1px solid #AAA;
+}
+
+legend {
+    color: #000ACC ;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.checkbox,button {
+    margin-left: 0px;
+}
+label,fieldset {
+    font-weight: bold;
+}
+.obrigatório {
+    color: #AA0000;
+    text-decoration-line: underline;
+    font-variant: small-caps;
+}
+input[type=text], input[type=email], input[type=password]  {
+    width: 500px;
+}
